@@ -10,9 +10,6 @@ on:
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: online-registration-system
 
     steps:
       - name: Checkout source code
@@ -24,8 +21,11 @@ jobs:
           distribution: temurin
           java-version: '11'
 
+      - name: List directory structure
+        run: ls -la
+
       - name: Run unit tests
-        run: mvn clean test --batch-mode
+        run: cd online-registration-system && mvn clean test --batch-mode
 
       - name: Package application
-        run: mvn package -DskipTests --batch-mode
+        run: cd online-registration-system && mvn package -DskipTests --batch-mode
