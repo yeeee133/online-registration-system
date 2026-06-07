@@ -1,0 +1,8 @@
+run_dir=runs/20260428_163618
+test_plan=online_registration_performance_test_v2_demo.jmx
+sample_count=:
+error_count=:
+error_pct=:
+mean_rt_ms=:
+p95_rt_ms=:
+throughput_rps=:

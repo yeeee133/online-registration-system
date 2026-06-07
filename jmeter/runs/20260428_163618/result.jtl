@@ -1,0 +1,1351 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1777365379554,18,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-1,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,16,0,11
+1777365379554,18,POST-登录,200,,场景2-DEMO-在线报名并发 2-1,text,true,,350,221,1,2,http://localhost:8080/api/auth/login,16,0,11
+1777365379573,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-1,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,1
+1777365379575,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-1,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,1
+1777365379576,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-1,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,1
+1777365379573,5,POST-报名,200,,场景2-DEMO-在线报名并发 2-1,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,2,http://localhost:8080/api/register,5,0,1
+1777365379578,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-1,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,0,0,0
+1777365379578,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-1,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365379578,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-1,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,1
+1777365379579,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-1,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,1
+1777365379580,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-1,text,true,,275,274,1,2,http://localhost:8080/api/auth/login,1,0,0
+1777365379580,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-1,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,1
+1777365379581,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-1,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365379582,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-1,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365379581,2,POST-报名,200,,场景2-DEMO-在线报名并发 2-1,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,2,http://localhost:8080/api/register,2,0,0
+1777365379583,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-1,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365379583,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-1,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365379584,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-1,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365379585,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-1,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365379586,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-1,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365379587,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-1,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365379698,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-2,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365379701,9,POST-报名,200,,场景2-DEMO-在线报名并发 2-2,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,9,0,0
+1777365379718,11,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-2,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,11,0,1
+1777365379730,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-2,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365379732,5,POST-报名,200,,场景2-DEMO-在线报名并发 2-2,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,5,0,0
+1777365379737,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-2,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365379898,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-3,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365379902,4,POST-报名,200,,场景2-DEMO-在线报名并发 2-3,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,4,0,0
+1777365379907,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-3,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365379909,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-3,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365379911,2,POST-报名,200,,场景2-DEMO-在线报名并发 2-3,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365379913,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-3,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365379997,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-2,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365380000,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-2,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365380002,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-2,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365380004,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-2,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365380007,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-2,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365380009,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-2,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365380011,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-2,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365380012,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-2,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365380013,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-2,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365380014,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-2,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365380015,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-2,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365380017,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-2,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365380018,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-2,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365380019,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-2,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365380019,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-2,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365380101,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-4,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365380105,5,POST-报名,200,,场景2-DEMO-在线报名并发 2-4,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365380110,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-4,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365380113,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-4,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365380116,3,POST-报名,200,,场景2-DEMO-在线报名并发 2-4,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,3,0,0
+1777365380120,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-4,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365380298,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-5,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365380302,4,POST-报名,200,,场景2-DEMO-在线报名并发 2-5,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365380307,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-5,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365380310,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-5,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365380312,3,POST-报名,200,,场景2-DEMO-在线报名并发 2-5,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,3,0,0
+1777365380315,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-5,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365380495,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-3,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,3,0,1
+1777365380498,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-3,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,3,0,1
+1777365380500,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-6,text,true,,350,221,1,2,http://localhost:8080/api/auth/login,2,0,1
+1777365380502,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-3,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365380504,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-3,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365380505,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-3,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,1
+1777365380503,5,POST-报名,200,,场景2-DEMO-在线报名并发 2-6,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,2,http://localhost:8080/api/register,4,0,1
+1777365380506,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-3,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,1
+1777365380508,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-6,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365380508,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-3,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365380509,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-3,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365380509,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-6,text,true,,275,274,1,2,http://localhost:8080/api/auth/login,1,0,0
+1777365380510,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-3,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365380511,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-3,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,0,0,0
+1777365380510,2,POST-报名,200,,场景2-DEMO-在线报名并发 2-6,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,2,http://localhost:8080/api/register,2,0,0
+1777365380512,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-3,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,0,0,0
+1777365380513,0,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-6,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,0,0,0
+1777365380513,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-3,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,0,0,0
+1777365380513,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-3,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365380514,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-3,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365380515,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-3,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365380694,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-7,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365380698,4,POST-报名,200,,场景2-DEMO-在线报名并发 2-7,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,4,0,0
+1777365380703,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-7,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365380705,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-7,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365380707,3,POST-报名,200,,场景2-DEMO-在线报名并发 2-7,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365380710,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-7,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365380895,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-8,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,0
+1777365380898,4,POST-报名,200,,场景2-DEMO-在线报名并发 2-8,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365380903,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-8,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365380905,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-8,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365380907,2,POST-报名,200,,场景2-DEMO-在线报名并发 2-8,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365380909,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-8,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365380997,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-4,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,3,0,1
+1777365381001,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-4,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365381003,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-4,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365381005,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-4,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365381006,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-4,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365381008,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-4,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365381009,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-4,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365381010,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-4,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365381011,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-4,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365381012,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-4,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365381013,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-4,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365381014,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-4,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365381015,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-4,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365381016,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-4,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365381016,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-4,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365381096,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-9,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365381099,4,POST-报名,200,,场景2-DEMO-在线报名并发 2-9,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365381104,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-9,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365381106,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-9,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365381108,3,POST-报名,200,,场景2-DEMO-在线报名并发 2-9,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365381111,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-9,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365381297,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-10,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365381301,4,POST-报名,200,,场景2-DEMO-在线报名并发 2-10,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,4,0,0
+1777365381305,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-10,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365381307,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-10,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365381309,3,POST-报名,200,,场景2-DEMO-在线报名并发 2-10,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,3,0,0
+1777365381312,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-10,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365381493,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-11,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365381497,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-5,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365381499,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-5,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365381496,5,POST-报名,200,,场景2-DEMO-在线报名并发 2-11,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,2,http://localhost:8080/api/register,5,0,1
+1777365381501,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-5,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,0,0,0
+1777365381502,0,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-11,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,0,0,0
+1777365381502,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-5,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,0,0,0
+1777365381503,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-5,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365381503,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-11,text,true,,275,274,1,2,http://localhost:8080/api/auth/login,1,0,0
+1777365381504,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-5,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,0,0,0
+1777365381505,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-5,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,0,0,0
+1777365381504,2,POST-报名,200,,场景2-DEMO-在线报名并发 2-11,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,2,http://localhost:8080/api/register,2,0,0
+1777365381505,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-5,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365381506,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-11,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365381506,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-5,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365381507,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-5,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365381508,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-5,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365381508,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-5,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365381509,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-5,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365381510,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-5,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365381511,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-5,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365381693,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-12,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365381696,4,POST-报名,200,,场景2-DEMO-在线报名并发 2-12,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,4,0,0
+1777365381700,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-12,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365381702,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-12,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365381704,3,POST-报名,200,,场景2-DEMO-在线报名并发 2-12,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365381708,0,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-12,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,0,0,0
+1777365381899,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-13,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365381903,4,POST-报名,200,,场景2-DEMO-在线报名并发 2-13,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,4,0,0
+1777365381907,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-13,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365381910,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-13,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365381912,3,POST-报名,200,,场景2-DEMO-在线报名并发 2-13,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365381916,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-13,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365381996,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-6,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,3,0,1
+1777365381999,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-6,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365382001,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-6,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365382003,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-6,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365382005,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-6,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365382006,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-6,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365382007,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-6,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365382009,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-6,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365382010,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-6,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365382011,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-6,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365382011,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-6,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365382012,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-6,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365382013,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-6,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365382014,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-6,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365382015,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-6,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365382098,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-14,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365382102,7,POST-报名,200,,场景2-DEMO-在线报名并发 2-14,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,6,0,1
+1777365382109,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-14,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365382110,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-14,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,1
+1777365382112,2,POST-报名,200,,场景2-DEMO-在线报名并发 2-14,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365382114,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-14,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,0,0,0
+1777365382299,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-15,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365382303,4,POST-报名,200,,场景2-DEMO-在线报名并发 2-15,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365382308,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-15,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365382310,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-15,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365382312,3,POST-报名,200,,场景2-DEMO-在线报名并发 2-15,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365382318,3,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-15,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,3,0,1
+1777365382499,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-7,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,1
+1777365382499,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-16,text,true,,350,221,1,2,http://localhost:8080/api/auth/login,2,0,1
+1777365382502,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-7,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365382503,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-7,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365382502,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-16,text,false,Test failed: text expected to contain /报名成功/,204,280,1,2,http://localhost:8080/api/register,2,0,0
+1777365382504,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-7,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,1
+1777365382504,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-16,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365382505,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-7,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,1
+1777365382506,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-16,text,true,,275,274,1,2,http://localhost:8080/api/auth/login,1,0,0
+1777365382506,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-7,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365382507,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-7,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365382508,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-7,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,0,0,0
+1777365382507,2,POST-报名,200,,场景2-DEMO-在线报名并发 2-16,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,2,http://localhost:8080/api/register,2,0,0
+1777365382509,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-7,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,0,0,0
+1777365382509,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-7,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,1
+1777365382509,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-16,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365382510,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-7,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365382511,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-7,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365382511,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-7,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365382512,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-7,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365382513,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-7,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365382696,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-17,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365382700,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-17,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365382703,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-17,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365382705,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-17,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365382707,1,POST-报名,400,,场景2-DEMO-在线报名并发 2-17,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,1,0,0
+1777365382708,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-17,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365382898,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-18,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365382901,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-18,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365382904,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-18,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365382905,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-18,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365382907,1,POST-报名,400,,场景2-DEMO-在线报名并发 2-18,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,1,0,0
+1777365382908,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-18,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365382993,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-8,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,3,0,1
+1777365382996,4,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-8,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,4,0,1
+1777365383000,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-8,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365383002,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-8,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365383003,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-8,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365383006,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-8,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365383008,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-8,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365383010,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-8,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365383010,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-8,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365383011,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-8,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365383012,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-8,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365383013,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-8,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365383014,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-8,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365383014,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-8,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365383015,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-8,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365383092,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-19,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365383094,1,POST-报名,400,,场景2-DEMO-在线报名并发 2-19,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,1,0,0
+1777365383096,0,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-19,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,0,0,0
+1777365383097,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-19,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365383098,1,POST-报名,400,,场景2-DEMO-在线报名并发 2-19,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,1,0,0
+1777365383099,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-19,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365383296,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-20,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365383299,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-20,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365383302,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-20,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365383304,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-20,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365383306,1,POST-报名,400,,场景2-DEMO-在线报名并发 2-20,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,1,0,0
+1777365383308,0,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-20,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,0,0,0
+1777365383495,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-21,text,true,,350,221,1,2,http://localhost:8080/api/auth/login,4,0,1
+1777365383499,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-9,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,1
+1777365383502,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-9,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,1
+1777365383499,6,POST-报名,200,,场景2-DEMO-在线报名并发 2-21,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,2,http://localhost:8080/api/register,6,0,1
+1777365383504,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-9,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,1
+1777365383505,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-21,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365383506,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-9,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,0,0,0
+1777365383506,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-9,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365383506,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-21,text,true,,275,274,1,2,http://localhost:8080/api/auth/login,1,0,0
+1777365383507,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-9,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365383508,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-9,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,0,0,0
+1777365383509,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-9,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,0,0,0
+1777365383509,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-9,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365383508,2,POST-报名,200,,场景2-DEMO-在线报名并发 2-21,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,2,http://localhost:8080/api/register,2,0,0
+1777365383510,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-9,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365383510,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-21,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365383511,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-9,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365383512,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-9,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365383512,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-9,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365383513,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-9,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365383514,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-9,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365383696,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-22,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365383700,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-22,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365383702,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-22,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365383704,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-22,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365383706,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-22,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365383709,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-22,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365383895,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-23,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365383899,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-23,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365383901,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-23,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365383904,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-23,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365383906,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-23,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365383909,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-23,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365383999,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-10,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,0
+1777365384002,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-10,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365384004,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-10,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365384005,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-10,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365384007,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-10,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365384009,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-10,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365384010,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-10,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365384012,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-10,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365384013,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-10,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365384015,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-10,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365384016,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-10,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365384016,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-10,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365384017,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-10,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365384018,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-10,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365384018,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-10,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365384096,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-24,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365384099,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-24,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,1,0,0
+1777365384101,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-24,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365384102,5,POST-登录,200,,场景2-DEMO-在线报名并发 2-24,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,5,0,0
+1777365384107,6,POST-报名,400,,场景2-DEMO-在线报名并发 2-24,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,6,0,2
+1777365384114,5,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-24,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,4,0,2
+1777365384292,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-25,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365384295,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-25,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365384297,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-25,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365384299,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-25,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365384302,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-25,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365384304,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-25,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365384492,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-26,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365384495,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-26,text,false,Test failed: text expected to contain /报名成功/,204,280,1,2,http://localhost:8080/api/register,4,0,1
+1777365384497,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-11,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,3,0,1
+1777365384500,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-26,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365384500,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-11,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365384501,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-11,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,1
+1777365384502,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-26,text,true,,275,274,1,2,http://localhost:8080/api/auth/login,1,0,0
+1777365384503,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-11,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365384504,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-11,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365384505,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-11,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365384503,3,POST-报名,200,,场景2-DEMO-在线报名并发 2-26,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,2,http://localhost:8080/api/register,3,0,0
+1777365384506,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-11,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365384506,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-26,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365384507,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-11,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,0,0,0
+1777365384507,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-11,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365384508,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-11,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365384509,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-11,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365384509,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-11,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365384510,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-11,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365384511,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-11,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365384512,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-11,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365384697,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-27,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365384701,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-27,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365384703,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-27,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365384706,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-27,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365384708,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-27,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365384710,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-27,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365384892,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-28,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365384896,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-28,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365384898,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-28,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365384899,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-28,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,1
+1777365384901,1,POST-报名,400,,场景2-DEMO-在线报名并发 2-28,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,1,0,0
+1777365384902,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-28,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365385001,10,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-12,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,10,0,8
+1777365385012,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-12,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365385015,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-12,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365385017,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-12,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365385019,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-12,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365385021,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-12,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365385022,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-12,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365385024,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-12,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365385024,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-12,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365385025,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-12,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365385026,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-12,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365385027,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-12,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365385029,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-12,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365385029,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-12,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365385030,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-12,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365385094,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-29,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365385099,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-29,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365385101,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-29,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365385103,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-29,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365385106,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-29,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365385108,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-29,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365385288,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-30,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365385292,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-30,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365385294,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-30,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365385296,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-30,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365385297,1,POST-报名,400,,场景2-DEMO-在线报名并发 2-30,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,1,0,0
+1777365385298,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-30,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365385492,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-13,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,1
+1777365385492,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-31,text,true,,350,221,1,2,http://localhost:8080/api/auth/login,3,0,1
+1777365385495,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-13,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,0
+1777365385497,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-13,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,1
+1777365385498,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-13,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,1
+1777365385495,4,POST-报名,200,,场景2-DEMO-在线报名并发 2-31,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,2,http://localhost:8080/api/register,4,0,0
+1777365385499,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-13,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365385499,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-31,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365385500,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-13,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365385501,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-13,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,0,0,0
+1777365385501,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-31,text,true,,275,274,1,2,http://localhost:8080/api/auth/login,0,0,0
+1777365385501,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-13,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,1
+1777365385502,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-13,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365385503,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-13,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,0,0,0
+1777365385502,2,POST-报名,200,,场景2-DEMO-在线报名并发 2-31,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,2,http://localhost:8080/api/register,2,0,0
+1777365385503,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-13,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,1
+1777365385504,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-31,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365385504,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-13,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365385505,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-13,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365385505,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-13,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365385506,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-13,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365385691,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-32,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365385695,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-32,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365385700,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-32,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365385702,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-32,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365385703,1,POST-报名,400,,场景2-DEMO-在线报名并发 2-32,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,1,0,0
+1777365385705,0,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-32,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,0,0,0
+1777365385891,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-33,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365385895,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-33,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365385898,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-33,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365385900,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-33,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365385902,1,POST-报名,400,,场景2-DEMO-在线报名并发 2-33,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,1,0,0
+1777365385904,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-33,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365385989,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-14,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,3,0,1
+1777365385993,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-14,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365385994,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-14,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365385996,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-14,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365385998,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-14,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365385999,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-14,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365386001,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-14,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365386003,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-14,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365386004,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-14,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365386006,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-14,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365386008,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-14,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365386010,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-14,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365386011,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-14,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365386012,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-14,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365386014,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-14,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365386089,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-34,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365386093,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-34,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365386095,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-34,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365386098,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-34,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365386099,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-34,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365386101,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-34,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365386289,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-35,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365386292,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-35,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365386294,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-35,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365386295,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-35,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365386296,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-35,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365386298,0,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-35,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,0,0,0
+1777365386493,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-36,text,true,,350,221,1,2,http://localhost:8080/api/auth/login,3,0,1
+1777365386493,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-15,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,3,0,1
+1777365386497,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-15,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,1
+1777365386497,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-36,text,false,Test failed: text expected to contain /报名成功/,204,280,1,2,http://localhost:8080/api/register,2,0,1
+1777365386499,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-15,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365386500,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-36,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365386500,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-15,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,1
+1777365386501,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-36,text,true,,275,274,1,2,http://localhost:8080/api/auth/login,2,0,1
+1777365386502,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-15,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365386503,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-15,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,0,0,0
+1777365386503,1,POST-报名,400,,场景2-DEMO-在线报名并发 2-36,text,false,Test failed: text expected to contain /报名成功/,204,280,1,2,http://localhost:8080/api/register,1,0,0
+1777365386504,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-15,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,0,0,0
+1777365386504,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-36,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365386504,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-15,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365386505,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-15,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365386506,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-15,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365386506,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-15,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365386507,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-15,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365386508,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-15,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365386509,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-15,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365386509,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-15,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365386689,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-37,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365386694,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-37,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365386698,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-37,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365386701,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-37,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365386704,1,POST-报名,400,,场景2-DEMO-在线报名并发 2-37,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,1,0,0
+1777365386705,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-37,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365386893,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-38,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,0
+1777365386896,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-38,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365386899,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-38,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365386901,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-38,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365386903,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-38,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365386905,0,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-38,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,0,0,0
+1777365386998,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-16,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,0
+1777365387001,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-16,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365387002,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-16,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365387004,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-16,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365387005,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-16,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365387007,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-16,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365387009,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-16,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365387011,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-16,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,0
+1777365387013,4,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-16,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,4,0,1
+1777365387017,8,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-16,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,8,0,0
+1777365387025,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-16,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,0
+1777365387027,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-16,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365387029,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-16,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365387030,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-16,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365387031,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-16,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365387088,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-39,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365387091,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-39,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365387093,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-39,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365387094,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-39,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365387096,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-39,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365387098,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-39,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365387292,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-40,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,0
+1777365387296,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-40,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365387298,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-40,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365387300,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-40,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365387302,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-40,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365387305,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-40,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365387488,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-41,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365387492,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-41,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365387496,12,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-41,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,12,0,0
+1777365387496,12,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-17,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,12,0,1
+1777365387509,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-41,text,true,,275,274,1,2,http://localhost:8080/api/auth/login,3,0,0
+1777365387508,4,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-17,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,4,0,1
+1777365387512,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-17,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,1
+1777365387514,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-17,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,1
+1777365387517,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-17,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,3,0,0
+1777365387512,9,POST-报名,200,,场景2-DEMO-在线报名并发 2-41,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,2,http://localhost:8080/api/register,8,0,1
+1777365387521,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-17,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,1
+1777365387521,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-41,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365387523,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-17,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365387525,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-17,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365387526,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-17,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365387528,4,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-17,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,4,0,2
+1777365387533,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-17,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365387534,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-17,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365387535,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-17,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365387536,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-17,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365387537,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-17,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365387689,5,POST-登录,200,,场景2-DEMO-在线报名并发 2-42,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365387694,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-42,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365387699,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-42,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365387702,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-42,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365387707,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-42,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,0
+1777365387710,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-42,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365387887,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-43,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365387890,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-43,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365387892,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-43,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365387894,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-43,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365387896,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-43,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365387899,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-43,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365387993,4,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-18,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,4,0,2
+1777365387999,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-18,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,0
+1777365388005,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-18,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,0
+1777365388008,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-18,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,0
+1777365388012,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-18,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,0
+1777365388014,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-18,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365388016,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-18,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365388018,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-18,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365388020,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-18,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,3,0,1
+1777365388023,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-18,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365388025,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-18,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365388026,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-18,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365388027,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-18,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365388027,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-18,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365388028,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-18,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365388090,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-44,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365388095,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-44,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365388099,3,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-44,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365388102,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-44,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365388104,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-44,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365388106,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-44,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365388289,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-45,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365388293,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-45,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365388296,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-45,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365388297,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-45,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365388299,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-45,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,0
+1777365388302,3,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-45,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365388489,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-19,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,1
+1777365388491,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-46,text,true,,350,221,1,2,http://localhost:8080/api/auth/login,1,0,0
+1777365388492,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-19,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365388493,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-19,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365388493,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-46,text,false,Test failed: text expected to contain /报名成功/,204,280,1,2,http://localhost:8080/api/register,2,0,0
+1777365388494,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-19,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,1
+1777365388495,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-46,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365388496,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-19,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365388497,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-19,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,1
+1777365388497,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-46,text,true,,275,274,1,2,http://localhost:8080/api/auth/login,3,0,1
+1777365388499,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-19,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,1
+1777365388500,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-46,text,false,Test failed: text expected to contain /报名成功/,204,280,1,2,http://localhost:8080/api/register,3,0,0
+1777365388502,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-19,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365388503,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-46,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365388504,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-19,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365388506,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-19,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365388508,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-19,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365388509,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-19,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365388510,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-19,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365388512,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-19,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365388513,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-19,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365388688,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-47,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365388692,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-47,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365388696,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-47,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365388698,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-47,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365388699,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-47,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365388702,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-47,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365388888,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-48,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365388891,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-48,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365388894,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-48,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365388895,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-48,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365388897,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-48,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365388901,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-48,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365388989,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-20,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,3,0,1
+1777365388993,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-20,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,0
+1777365388996,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-20,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,0
+1777365388998,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-20,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,3,0,1
+1777365389001,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-20,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365389003,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-20,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365389004,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-20,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365389006,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-20,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365389007,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-20,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365389008,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-20,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365389010,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-20,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365389012,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-20,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365389013,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-20,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365389015,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-20,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365389016,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-20,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365389085,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-49,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365389088,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-49,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365389091,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-49,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365389093,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-49,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365389095,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-49,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365389097,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-49,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365389284,5,POST-登录,200,,场景2-DEMO-在线报名并发 2-50,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,5,0,1
+1777365389289,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-50,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365389294,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-50,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365389297,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-50,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365389300,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-50,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365389304,3,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-50,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,3,0,1
+1777365389483,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-51,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365389486,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-51,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365389490,3,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-51,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,3,0,1
+1777365389493,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-21,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,0
+1777365389494,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-51,text,true,,275,274,1,2,http://localhost:8080/api/auth/login,2,0,0
+1777365389495,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-21,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,1
+1777365389497,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-21,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,1
+1777365389496,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-51,text,false,Test failed: text expected to contain /报名成功/,204,280,1,2,http://localhost:8080/api/register,3,0,1
+1777365389499,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-21,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,0
+1777365389499,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-51,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365389501,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-21,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365389503,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-21,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365389504,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-21,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365389506,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-21,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365389507,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-21,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365389509,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-21,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365389511,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-21,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365389512,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-21,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365389514,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-21,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365389515,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-21,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365389516,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-21,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365389681,5,POST-登录,200,,场景2-DEMO-在线报名并发 2-52,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,5,0,1
+1777365389686,5,POST-报名,400,,场景2-DEMO-在线报名并发 2-52,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,5,0,1
+1777365389691,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-52,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365389693,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-52,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365389695,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-52,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365389697,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-52,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365389886,5,POST-登录,200,,场景2-DEMO-在线报名并发 2-53,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365389891,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-53,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365389895,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-53,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365389898,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-53,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365389901,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-53,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365389903,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-53,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365389990,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-22,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,0
+1777365389993,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-22,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365389996,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-22,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,0
+1777365389999,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-22,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365390002,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-22,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,3,0,1
+1777365390005,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-22,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365390007,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-22,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,3,0,2
+1777365390011,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-22,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,3,0,0
+1777365390014,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-22,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,3,0,1
+1777365390018,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-22,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,0
+1777365390020,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-22,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365390022,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-22,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365390023,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-22,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365390025,4,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-22,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,4,0,0
+1777365390029,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-22,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365390080,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-54,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365390083,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-54,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365390085,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-54,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365390086,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-54,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365390088,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-54,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365390090,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-54,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365390285,5,POST-登录,200,,场景2-DEMO-在线报名并发 2-55,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,5,0,1
+1777365390290,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-55,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365390295,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-55,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365390298,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-55,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365390302,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-55,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,0
+1777365390306,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-55,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365390489,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-56,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365390496,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-23,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,1
+1777365390493,5,POST-报名,400,,场景2-DEMO-在线报名并发 2-56,text,false,Test failed: text expected to contain /报名成功/,204,280,1,2,http://localhost:8080/api/register,5,0,1
+1777365390499,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-56,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365390499,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-23,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,1
+1777365390501,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-23,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365390501,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-56,text,true,,275,274,1,2,http://localhost:8080/api/auth/login,1,0,0
+1777365390502,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-23,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365390503,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-56,text,false,Test failed: text expected to contain /报名成功/,204,280,1,2,http://localhost:8080/api/register,3,0,0
+1777365390504,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-23,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,0
+1777365390506,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-56,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365390507,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-23,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365390508,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-23,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365390509,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-23,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365390511,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-23,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365390512,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-23,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365390513,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-23,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365390514,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-23,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365390516,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-23,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365390517,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-23,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365390518,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-23,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365390687,5,POST-登录,200,,场景2-DEMO-在线报名并发 2-57,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,5,0,1
+1777365390692,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-57,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365390696,5,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-57,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,4,0,2
+1777365390702,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-57,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,4,0,0
+1777365390706,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-57,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365390708,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-57,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365390885,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-58,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365390889,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-58,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365390893,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-58,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365390895,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-58,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365390898,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-58,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,0
+1777365390901,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-58,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365390996,4,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-24,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,4,0,1
+1777365391000,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-24,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365391003,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-24,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365391005,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-24,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365391008,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-24,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365391011,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-24,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,0
+1777365391013,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-24,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365391015,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-24,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365391018,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-24,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,0
+1777365391020,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-24,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365391023,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-24,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,0
+1777365391025,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-24,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365391027,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-24,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365391030,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-24,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,0
+1777365391032,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-24,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365391084,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-59,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365391087,1,POST-报名,400,,场景2-DEMO-在线报名并发 2-59,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,1,0,0
+1777365391089,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-59,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365391090,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-59,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365391094,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-59,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,0
+1777365391098,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-59,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365391280,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-60,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365391285,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-60,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,0
+1777365391289,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-60,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365391292,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-60,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365391296,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-60,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,0
+1777365391300,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-60,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365391484,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-61,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365391489,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-61,text,false,Test failed: text expected to contain /报名成功/,204,280,1,2,http://localhost:8080/api/register,4,0,1
+1777365391491,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-25,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,1
+1777365391494,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-61,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365391494,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-25,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,0
+1777365391496,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-25,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,0
+1777365391496,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-61,text,true,,275,274,1,2,http://localhost:8080/api/auth/login,2,0,0
+1777365391498,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-25,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,1
+1777365391500,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-25,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365391501,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-25,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365391499,4,POST-报名,200,,场景2-DEMO-在线报名并发 2-61,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,2,http://localhost:8080/api/register,3,0,0
+1777365391502,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-25,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,1
+1777365391503,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-61,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365391504,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-25,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365391505,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-25,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365391506,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-25,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365391508,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-25,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365391509,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-25,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365391510,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-25,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365391512,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-25,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365391513,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-25,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365391679,5,POST-登录,200,,场景2-DEMO-在线报名并发 2-62,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,5,0,1
+1777365391684,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-62,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365391689,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-62,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365391691,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-62,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365391695,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-62,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365391698,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-62,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365391883,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-63,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365391888,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-63,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365391892,3,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-63,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365391895,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-63,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365391898,1,POST-报名,400,,场景2-DEMO-在线报名并发 2-63,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,1,0,0
+1777365391900,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-63,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365391991,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-26,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365391994,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-26,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365391995,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-26,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365391996,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-26,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365391997,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-26,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365391999,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-26,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365392000,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-26,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365392001,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-26,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365392002,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-26,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365392004,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-26,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365392005,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-26,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365392006,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-26,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365392008,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-26,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365392010,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-26,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365392011,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-26,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365392086,5,POST-登录,200,,场景2-DEMO-在线报名并发 2-64,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,5,0,1
+1777365392092,5,POST-报名,400,,场景2-DEMO-在线报名并发 2-64,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,5,0,1
+1777365392098,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-64,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365392101,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-64,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365392103,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-64,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365392105,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-64,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365392278,5,POST-登录,200,,场景2-DEMO-在线报名并发 2-65,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,5,0,1
+1777365392284,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-65,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365392287,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-65,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365392288,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-65,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365392290,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-65,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365392292,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-65,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365392481,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-66,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365392484,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-66,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365392486,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-66,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365392489,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-66,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365392494,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-27,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,1
+1777365392497,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-27,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,0
+1777365392492,7,POST-报名,200,,场景2-DEMO-在线报名并发 2-66,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,2,http://localhost:8080/api/register,7,0,1
+1777365392499,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-27,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,3,0,1
+1777365392500,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-66,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365392502,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-27,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,3,0,1
+1777365392505,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-27,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365392507,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-27,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365392509,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-27,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365392510,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-27,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365392512,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-27,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,0
+1777365392514,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-27,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365392516,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-27,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365392517,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-27,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365392519,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-27,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365392521,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-27,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365392523,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-27,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365392681,5,POST-登录,200,,场景2-DEMO-在线报名并发 2-67,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365392686,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-67,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365392689,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-67,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365392690,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-67,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365392692,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-67,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365392696,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-67,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365392881,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-68,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365392886,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-68,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365392890,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-68,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365392892,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-68,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365392893,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-68,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365392895,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-68,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365392993,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-28,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,0
+1777365392996,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-28,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,0
+1777365392998,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-28,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,0
+1777365393000,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-28,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365393002,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-28,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,3,0,0
+1777365393005,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-28,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365393007,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-28,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365393009,5,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-28,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,5,0,1
+1777365393014,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-28,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365393016,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-28,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365393017,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-28,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365393018,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-28,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365393020,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-28,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365393021,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-28,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365393022,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-28,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365393076,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-69,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365393081,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-69,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365393085,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-69,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365393088,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-69,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365393091,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-69,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365393095,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-69,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365393278,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-70,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365393282,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-70,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,0
+1777365393286,3,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-70,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365393289,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-70,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365393292,1,POST-报名,400,,场景2-DEMO-在线报名并发 2-70,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,1,0,0
+1777365393294,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-70,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365393479,6,POST-登录,200,,场景2-DEMO-在线报名并发 2-71,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,6,0,0
+1777365393488,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-29,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,0
+1777365393486,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-71,text,false,Test failed: text expected to contain /报名成功/,204,280,1,2,http://localhost:8080/api/register,4,0,1
+1777365393490,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-29,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,1
+1777365393490,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-71,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365393491,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-29,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,2,0,0
+1777365393491,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-71,text,true,,275,274,1,2,http://localhost:8080/api/auth/login,2,0,1
+1777365393493,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-29,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365393494,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-29,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,0,0,0
+1777365393493,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-71,text,false,Test failed: text expected to contain /报名成功/,204,280,1,2,http://localhost:8080/api/register,2,0,1
+1777365393494,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-29,text,true,,538,161,1,2,http://localhost:8080/api/activity/list,1,0,0
+1777365393495,0,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-71,text,true,,220,220,1,2,http://localhost:8080/api/register/count?id=1,0,0,0
+1777365393495,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-29,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365393495,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-29,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365393496,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-29,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365393497,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-29,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365393497,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-29,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365393498,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-29,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365393499,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-29,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365393499,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-29,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365393500,0,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-29,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,0,0,0
+1777365393678,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-72,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365393681,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-72,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365393683,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-72,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365393685,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-72,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365393687,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-72,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365393689,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-72,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365393872,16,POST-登录,200,,场景2-DEMO-在线报名并发 2-73,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,16,0,2
+1777365393893,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-73,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,2
+1777365393897,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-73,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365393899,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-73,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365393902,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-73,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365393905,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-73,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365393988,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-30,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,3,0,0
+1777365393991,3,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-30,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,3,0,1
+1777365393994,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-30,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365393996,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-30,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365393999,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-30,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365394001,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-30,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365394002,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-30,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365394004,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-30,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365394006,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-30,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365394008,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-30,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365394009,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-30,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,1
+1777365394011,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-30,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365394012,2,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-30,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,2,0,1
+1777365394014,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-30,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365394015,1,GET-活动列表,200,,场景1-DEMO-活动列表基线 1-30,text,true,,538,161,1,1,http://localhost:8080/api/activity/list,1,0,0
+1777365394077,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-74,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365394081,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-74,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365394084,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-74,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365394087,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-74,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,4,0,0
+1777365394092,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-74,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,0
+1777365394095,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-74,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365394272,5,POST-登录,200,,场景2-DEMO-在线报名并发 2-75,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365394277,5,POST-报名,400,,场景2-DEMO-在线报名并发 2-75,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,5,0,1
+1777365394282,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-75,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365394285,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-75,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365394288,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-75,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365394291,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-75,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365394471,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-76,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,2
+1777365394475,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-76,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365394480,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-76,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365394482,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-76,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365394485,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-76,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365394488,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-76,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365394674,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-77,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365394677,4,POST-报名,200,,场景2-DEMO-在线报名并发 2-77,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,4,0,0
+1777365394681,3,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-77,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,3,0,1
+1777365394684,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-77,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365394687,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-77,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365394691,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-77,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365394875,5,POST-登录,200,,场景2-DEMO-在线报名并发 2-78,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365394880,4,POST-报名,200,,场景2-DEMO-在线报名并发 2-78,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365394884,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-78,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365394886,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-78,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,0
+1777365394889,6,POST-报名,200,,场景2-DEMO-在线报名并发 2-78,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,6,0,1
+1777365394895,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-78,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365395070,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-79,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,0
+1777365395075,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-79,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,0
+1777365395079,3,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-79,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365395082,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-79,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365395085,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-79,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365395089,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-79,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365395270,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-80,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365395275,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-80,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365395279,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-80,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365395281,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-80,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365395284,5,POST-报名,200,,场景2-DEMO-在线报名并发 2-80,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,5,0,1
+1777365395289,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-80,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365395465,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-81,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365395470,6,POST-报名,200,,场景2-DEMO-在线报名并发 2-81,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,6,0,0
+1777365395476,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-81,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365395479,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-81,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365395481,4,POST-报名,200,,场景2-DEMO-在线报名并发 2-81,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365395486,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-81,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365395668,5,POST-登录,200,,场景2-DEMO-在线报名并发 2-82,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,5,0,1
+1777365395673,5,POST-报名,200,,场景2-DEMO-在线报名并发 2-82,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,5,0,1
+1777365395679,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-82,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365395681,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-82,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365395683,5,POST-报名,200,,场景2-DEMO-在线报名并发 2-82,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,5,0,1
+1777365395688,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-82,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365395865,5,POST-登录,200,,场景2-DEMO-在线报名并发 2-83,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365395870,7,POST-报名,200,,场景2-DEMO-在线报名并发 2-83,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,7,0,1
+1777365395878,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-83,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365395880,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-83,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365395883,4,POST-报名,200,,场景2-DEMO-在线报名并发 2-83,text,false,Test failed: text expected to contain /活动名额已满/,275,280,1,1,http://localhost:8080/api/register,4,0,0
+1777365395888,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-83,text,true,,220,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365396068,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-84,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365396073,5,POST-报名,200,,场景2-DEMO-在线报名并发 2-84,text,false,Test failed: text expected to contain /活动名额已满/,276,280,1,1,http://localhost:8080/api/register,5,0,0
+1777365396079,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-84,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365396081,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-84,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365396083,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-84,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365396086,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-84,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365396267,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-85,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365396270,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-85,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365396272,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-85,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365396273,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-85,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365396275,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-85,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,1,0,0
+1777365396277,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-85,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365396467,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-86,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,0
+1777365396471,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-86,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365396474,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-86,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365396475,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-86,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365396477,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-86,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365396479,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-86,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365396667,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-87,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365396672,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-87,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,0
+1777365396675,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-87,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365396678,5,POST-登录,200,,场景2-DEMO-在线报名并发 2-87,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365396683,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-87,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365396685,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-87,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365396866,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-88,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,0
+1777365396870,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-88,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365396875,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-88,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365396878,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-88,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,0
+1777365396881,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-88,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365396885,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-88,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365397067,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-89,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,0
+1777365397071,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-89,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365397076,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-89,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365397079,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-89,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,0
+1777365397082,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-89,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365397087,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-89,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365397263,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-90,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365397266,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-90,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,0
+1777365397270,3,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-90,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,3,0,1
+1777365397273,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-90,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365397276,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-90,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365397281,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-90,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365397467,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-91,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365397471,5,POST-报名,400,,场景2-DEMO-在线报名并发 2-91,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,5,0,1
+1777365397476,3,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-91,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,3,0,1
+1777365397480,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-91,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365397483,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-91,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,0
+1777365397487,3,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-91,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365397665,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-92,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,0
+1777365397669,5,POST-报名,400,,场景2-DEMO-在线报名并发 2-92,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,5,0,1
+1777365397674,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-92,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365397677,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-92,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365397680,5,POST-报名,400,,场景2-DEMO-在线报名并发 2-92,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365397685,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-92,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365397865,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-93,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365397870,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-93,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,0
+1777365397874,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-93,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365397876,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-93,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365397879,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-93,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,0
+1777365397882,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-93,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365398065,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-94,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365398070,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-94,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365398074,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-94,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365398077,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-94,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365398080,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-94,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365398084,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-94,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365398265,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-95,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365398270,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-95,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365398274,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-95,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365398276,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-95,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365398278,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-95,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365398281,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-95,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365398465,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-96,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365398470,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-96,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365398474,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-96,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365398477,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-96,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365398480,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-96,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365398483,3,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-96,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365398666,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-97,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365398670,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-97,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365398672,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-97,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365398674,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-97,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365398676,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-97,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365398678,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-97,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365398870,17,POST-登录,200,,场景2-DEMO-在线报名并发 2-98,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,17,0,10
+1777365398888,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-98,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,0
+1777365398892,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-98,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365398893,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-98,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,1
+1777365398895,5,POST-报名,400,,场景2-DEMO-在线报名并发 2-98,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,5,0,0
+1777365398900,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-98,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365399066,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-99,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,0
+1777365399070,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-99,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,0
+1777365399075,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-99,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365399077,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-99,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365399081,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-99,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,0
+1777365399085,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-99,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365399265,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-100,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365399270,5,POST-报名,400,,场景2-DEMO-在线报名并发 2-100,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,5,0,0
+1777365399275,3,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-100,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,3,0,1
+1777365399278,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-100,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365399281,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-100,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365399283,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-100,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365399462,5,POST-登录,200,,场景2-DEMO-在线报名并发 2-101,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365399467,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-101,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,0
+1777365399470,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-101,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365399472,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-101,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365399475,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-101,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365399478,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-101,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365399662,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-102,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365399667,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-102,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365399670,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-102,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365399672,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-102,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365399675,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-102,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365399678,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-102,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365399863,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-103,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365399867,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-103,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365399870,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-103,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365399871,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-103,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365399874,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-103,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365399876,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-103,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365400062,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-104,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,0
+1777365400065,6,POST-报名,400,,场景2-DEMO-在线报名并发 2-104,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,6,0,1
+1777365400071,3,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-104,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,3,0,1
+1777365400075,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-104,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365400077,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-104,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,0
+1777365400080,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-104,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365400265,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-105,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365400269,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-105,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,0
+1777365400272,3,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-105,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365400275,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-105,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365400278,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-105,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365400282,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-105,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365400460,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-106,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365400464,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-106,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365400466,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-106,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365400468,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-106,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365400470,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-106,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365400473,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-106,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365400658,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-107,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365400661,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-107,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365400664,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-107,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365400666,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-107,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,0
+1777365400670,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-107,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,0
+1777365400673,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-107,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365400857,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-108,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365400860,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-108,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365400863,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-108,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365400866,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-108,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365400867,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-108,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365400870,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-108,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365401052,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-109,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365401056,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-109,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365401060,3,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-109,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,3,0,0
+1777365401064,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-109,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365401065,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-109,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365401069,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-109,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365401258,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-110,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365401262,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-110,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,0
+1777365401266,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-110,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365401268,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-110,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,4,0,0
+1777365401272,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-110,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365401275,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-110,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365401459,6,POST-登录,200,,场景2-DEMO-在线报名并发 2-111,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,6,0,0
+1777365401465,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-111,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365401468,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-111,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365401470,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-111,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,0
+1777365401474,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-111,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365401476,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-111,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365401657,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-112,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,0
+1777365401660,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-112,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365401663,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-112,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365401665,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-112,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365401667,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-112,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,1,0,0
+1777365401669,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-112,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365401874,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-113,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365401877,8,POST-报名,400,,场景2-DEMO-在线报名并发 2-113,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,8,0,0
+1777365401885,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-113,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365401887,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-113,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365401889,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-113,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,1,0,0
+1777365401891,0,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-113,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,0,0,0
+1777365402056,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-114,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,0
+1777365402059,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-114,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365402061,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-114,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365402063,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-114,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365402065,1,POST-报名,400,,场景2-DEMO-在线报名并发 2-114,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,1,0,0
+1777365402066,0,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-114,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,0,0,0
+1777365402256,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-115,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365402259,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-115,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365402262,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-115,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365402264,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-115,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365402266,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-115,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365402268,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-115,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365402455,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-116,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365402459,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-116,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365402461,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-116,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365402462,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-116,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365402465,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-116,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365402467,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-116,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365402655,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-117,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365402658,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-117,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365402661,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-117,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365402662,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-117,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365402664,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-117,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365402667,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-117,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365402857,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-118,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,0
+1777365402860,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-118,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365402863,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-118,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365402865,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-118,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365402867,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-118,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365402869,0,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-118,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,0,0,0
+1777365403057,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-119,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365403061,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-119,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365403063,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-119,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365403065,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-119,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365403067,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-119,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365403069,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-119,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365403256,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-120,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365403259,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-120,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365403262,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-120,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365403264,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-120,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365403265,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-120,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365403267,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-120,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365403454,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-121,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365403458,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-121,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365403460,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-121,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365403462,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-121,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365403463,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-121,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365403465,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-121,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365403655,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-122,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365403659,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-122,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365403661,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-122,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365403663,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-122,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365403665,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-122,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365403667,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-122,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365403855,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-123,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365403858,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-123,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365403861,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-123,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365403863,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-123,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365403865,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-123,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,1,0,0
+1777365403867,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-123,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365404061,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-124,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365404065,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-124,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365404067,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-124,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365404068,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-124,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365404070,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-124,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365404073,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-124,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365404254,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-125,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365404257,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-125,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365404259,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-125,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365404261,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-125,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365404263,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-125,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365404266,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-125,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365404452,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-126,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365404455,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-126,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365404458,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-126,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365404459,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-126,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365404461,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-126,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365404463,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-126,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365404654,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-127,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365404656,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-127,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,0
+1777365404659,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-127,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365404661,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-127,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,3,0,0
+1777365404664,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-127,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365404666,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-127,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365404854,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-128,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365404858,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-128,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,0
+1777365404861,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-128,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,0
+1777365404863,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-128,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365404868,11,POST-报名,400,,场景2-DEMO-在线报名并发 2-128,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,11,0,1
+1777365404879,3,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-128,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,3,0,2
+1777365405052,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-129,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365405056,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-129,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,2
+1777365405061,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-129,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365405062,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-129,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365405064,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-129,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365405067,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-129,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,0,0,0
+1777365405250,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-130,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,0
+1777365405253,4,POST-报名,400,,场景2-DEMO-在线报名并发 2-130,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,4,0,1
+1777365405257,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-130,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365405258,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-130,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365405260,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-130,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365405262,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-130,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365405447,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-131,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365405451,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-131,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365405454,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-131,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365405456,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-131,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365405458,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-131,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365405460,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-131,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365405653,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-132,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365405657,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-132,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365405661,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-132,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365405662,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-132,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365405665,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-132,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365405667,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-132,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365405851,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-133,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365405855,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-133,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,0
+1777365405858,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-133,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365405860,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-133,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365405861,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-133,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365405864,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-133,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365406051,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-134,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365406055,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-134,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365406058,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-134,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365406059,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-134,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365406061,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-134,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365406063,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-134,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365406252,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-135,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365406256,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-135,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365406259,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-135,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365406260,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-135,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365406262,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-135,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365406264,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-135,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365406454,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-136,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,0
+1777365406457,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-136,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365406459,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-136,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365406461,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-136,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365406463,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-136,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365406465,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-136,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365406647,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-137,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365406650,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-137,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365406652,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-137,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365406653,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-137,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365406655,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-137,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365406657,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-137,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365406848,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-138,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365406851,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-138,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365406854,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-138,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365406855,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-138,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365406857,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-138,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365406859,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-138,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365407052,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-139,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365407055,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-139,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365407058,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-139,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365407060,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-139,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365407062,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-139,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365407064,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-139,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365407253,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-140,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365407257,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-140,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365407260,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-140,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365407261,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-140,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,0
+1777365407263,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-140,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365407265,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-140,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365407448,5,POST-登录,200,,场景2-DEMO-在线报名并发 2-141,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,5,0,1
+1777365407453,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-141,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365407456,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-141,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365407457,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-141,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,1
+1777365407459,1,POST-报名,400,,场景2-DEMO-在线报名并发 2-141,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,1,0,0
+1777365407460,0,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-141,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,0,0,0
+1777365407649,4,POST-登录,200,,场景2-DEMO-在线报名并发 2-142,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,4,0,1
+1777365407653,6,POST-报名,400,,场景2-DEMO-在线报名并发 2-142,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,6,0,1
+1777365407659,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-142,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365407662,5,POST-登录,200,,场景2-DEMO-在线报名并发 2-142,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,5,0,0
+1777365407667,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-142,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365407669,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-142,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365407846,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-143,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365407850,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-143,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365407852,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-143,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365407853,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-143,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365407855,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-143,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365407857,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-143,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365408052,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-144,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365408056,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-144,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365408058,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-144,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365408060,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-144,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365408062,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-144,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365408064,2,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-144,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,2,0,1
+1777365408249,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-145,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,0
+1777365408252,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-145,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365408255,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-145,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365408257,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-145,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365408258,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-145,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,1
+1777365408261,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-145,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365408451,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-146,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,0
+1777365408455,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-146,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365408458,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-146,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365408459,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-146,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365408461,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-146,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365408463,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-146,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,0,0,0
+1777365408649,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-147,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365408652,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-147,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365408656,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-147,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365408658,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-147,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365408660,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-147,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365408662,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-147,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365408850,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-148,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365408854,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-148,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365408857,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-148,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365408858,2,POST-登录,200,,场景2-DEMO-在线报名并发 2-148,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,2,0,1
+1777365408860,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-148,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365408863,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-148,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365409051,3,POST-登录,200,,场景2-DEMO-在线报名并发 2-149,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,3,0,1
+1777365409055,3,POST-报名,400,,场景2-DEMO-在线报名并发 2-149,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,3,0,1
+1777365409058,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-149,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,1
+1777365409060,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-149,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365409062,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-149,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365409064,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-149,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365409250,5,POST-登录,200,,场景2-DEMO-在线报名并发 2-150,text,true,,350,221,1,1,http://localhost:8080/api/auth/login,5,0,1
+1777365409255,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-150,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365409258,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-150,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
+1777365409260,1,POST-登录,200,,场景2-DEMO-在线报名并发 2-150,text,true,,275,274,1,1,http://localhost:8080/api/auth/login,1,0,0
+1777365409262,2,POST-报名,400,,场景2-DEMO-在线报名并发 2-150,text,false,Test failed: text expected to contain /报名成功/,204,280,1,1,http://localhost:8080/api/register,2,0,0
+1777365409264,1,GET-报名人数,200,,场景2-DEMO-在线报名并发 2-150,text,true,,221,220,1,1,http://localhost:8080/api/register/count?id=1,1,0,0
