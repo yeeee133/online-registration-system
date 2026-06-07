@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-test-and-docker:
+  build-and-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,18 +21,12 @@ jobs:
           distribution: temurin
           java-version: '11'
           cache: maven
+          cache-path: ~/.m2/repository
 
       - name: Run unit tests
         working-directory: ./online-registration-system
-        run: mvn clean test
+        run: mvn clean test --batch-mode
 
       - name: Package application
         working-directory: ./online-registration-system
-        run: mvn package -DskipTests
-
-      - name: Build Docker image
-        working-directory: ./online-registration-system
-        run: docker build -t online-registration-system:ci .
-
-      - name: Show Docker images
-        run: docker images | head
+        run: mvn package -DskipTests --batch-mode
